@@ -1,0 +1,5 @@
+C:\projekty\ChoirSggw\ChoirSGGW.WebAPI\ChoirSGGW.Content\bin\Debug\ChoirSGGW.Content.dll
+C:\projekty\ChoirSggw\ChoirSGGW.WebAPI\ChoirSGGW.Content\bin\Debug\ChoirSGGW.Content.pdb
+C:\projekty\ChoirSggw\ChoirSGGW.WebAPI\ChoirSGGW.Content\obj\Debug\ChoirSGGW.Content.dll
+C:\projekty\ChoirSggw\ChoirSGGW.WebAPI\ChoirSGGW.Content\obj\Debug\ChoirSGGW.Content.pdb
+C:\projekty\ChoirSggw\ChoirSGGW.WebAPI\ChoirSGGW.Content\obj\Debug\ChoirSGGW.Content.csprojResolveAssemblyReference.cache

@@ -1,0 +1,12 @@
+C:\projekty\ChoirSggw\ChoirSGGW.WebAPI\ChoirSGGW.Entities\bin\Debug\ChoirSGGW.Entities.dll.config
+C:\projekty\ChoirSggw\ChoirSGGW.WebAPI\ChoirSGGW.Entities\bin\Debug\ChoirSGGW.Entities.dll
+C:\projekty\ChoirSggw\ChoirSGGW.WebAPI\ChoirSGGW.Entities\bin\Debug\ChoirSGGW.Entities.pdb
+C:\projekty\ChoirSggw\ChoirSGGW.WebAPI\ChoirSGGW.Entities\bin\Debug\ChoirSGGW.Content.dll
+C:\projekty\ChoirSggw\ChoirSGGW.WebAPI\ChoirSGGW.Entities\bin\Debug\EntityFramework.dll
+C:\projekty\ChoirSggw\ChoirSGGW.WebAPI\ChoirSGGW.Entities\bin\Debug\EntityFramework.SqlServer.dll
+C:\projekty\ChoirSggw\ChoirSGGW.WebAPI\ChoirSGGW.Entities\bin\Debug\ChoirSGGW.Content.pdb
+C:\projekty\ChoirSggw\ChoirSGGW.WebAPI\ChoirSGGW.Entities\bin\Debug\EntityFramework.xml
+C:\projekty\ChoirSggw\ChoirSGGW.WebAPI\ChoirSGGW.Entities\bin\Debug\EntityFramework.SqlServer.xml
+C:\projekty\ChoirSggw\ChoirSGGW.WebAPI\ChoirSGGW.Entities\obj\Debug\ChoirSGGW.Entities.csprojResolveAssemblyReference.cache
+C:\projekty\ChoirSggw\ChoirSGGW.WebAPI\ChoirSGGW.Entities\obj\Debug\ChoirSGGW.Entities.dll
+C:\projekty\ChoirSggw\ChoirSGGW.WebAPI\ChoirSGGW.Entities\obj\Debug\ChoirSGGW.Entities.pdb
