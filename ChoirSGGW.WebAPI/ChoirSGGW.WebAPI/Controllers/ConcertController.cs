@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
-using ChoirSGGW.Domain.Models;
 using ChoirSGGW.Domain.Services.Interfaces;
 using ChoirSGGW.Entities.Models;
+using ChoirSGGW.WebAPI.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;

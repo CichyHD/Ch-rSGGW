@@ -99,26 +99,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="App_Start\ConfigureMappings.cs" />
     <Compile Include="App_Start\UnityConfig.cs" />
     <Compile Include="App_Start\UnityMvcActivator.cs" />
     <Compile Include="DependencySupport\RegisterTypes.cs" />
-    <Compile Include="Models\AchievementDTO.cs" />
-    <Compile Include="Models\BasicModels\BasicModelDTO.cs" />
-    <Compile Include="Models\BasicModels\EventDTO.cs" />
-    <Compile Include="Models\BasicModels\VisibilityModelDTO.cs" />
-    <Compile Include="Models\ConcertDTO.cs" />
-    <Compile Include="Models\PhotoDTO.cs" />
-    <Compile Include="Models\RepertoireDTO.cs" />
-    <Compile Include="Models\SampleDTO.cs" />
-    <Compile Include="Models\SongNoteDTO.cs" />
-    <Compile Include="Models\TopicalityDTO.cs" />
-    <Compile Include="Models\Types\ClotheTypesDTO.cs" />
-    <Compile Include="Models\Types\SongsTypeDTO.cs" />
-    <Compile Include="Models\Types\TopicalityTypeDTO.cs" />
-    <Compile Include="Models\Types\UserTypesDTO.cs" />
-    <Compile Include="Models\UserDTO.cs" />
-    <Compile Include="Models\VideoDTO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\AchievementService.cs" />
     <Compile Include="Services\ConcertService.cs" />

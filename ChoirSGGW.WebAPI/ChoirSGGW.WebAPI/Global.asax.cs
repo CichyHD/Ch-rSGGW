@@ -24,7 +24,7 @@ namespace ChoirSGGW.WebAPI
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
 
-            new ChoirSGGW.Domain.App_Start.ConfigureMappings().CreateMappings();
+            new ChoirSGGW.WebAPI.App_Start.ConfigureMappings().CreateMappings();
         }
     }
 }
