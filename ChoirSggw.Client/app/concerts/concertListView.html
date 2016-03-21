@@ -1,8 +1,8 @@
 <div class="panel panel-primary"
-     ng-controller="ProductListCtrl as vm">
+     ng-controller="concertListCtrl as vm">
     <div class="panel-heading"
          style="font-size:large">
-        Product List
+        Concerts List
     </div>
 
     <div class="panel-body">
@@ -16,11 +16,11 @@
                 </tr>
             </thead>
             <tbody>
-                <tr ng-repeat="product in vm.products">
-                    <td>{{ product.productName}}</td>
-                    <td>{{ product.productCode }}</td>
-                    <td>{{ product.releaseDate | date }}</td>
-                    <td>{{ product.price | currency }}</td>
+                <tr ng-repeat="concert in vm.concerts">
+                    <td>{{ concert.productName}}</td>
+                    <td>{{ concert.productCode }}</td>
+                    <td>{{ concert.releaseDate | date }}</td>
+                    <td>{{ concert.price | currency }}</td>
                 </tr>
             </tbody>
         </table>
