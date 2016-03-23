@@ -1,43 +1,69 @@
 ﻿<!DOCTYPE html>
-<html>
+<html ng-app="eventsApp">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Example for Choir SGGW structure</title>
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+</head>
 
-    <head lang="en">
-        <meta charset="UTF-8">
-        <title>Example for Choir SGGW structure</title>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="navbar-inner">
+                <ul class="nav">
 
-        <!-- Bootstrapp Style sheets -->
-        <link href="Content/bootstrap.css" rel="stylesheet" />
-    </head>
-
-<body ng-app="concertManagment">
-    <nav class="navbar navbar-default">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <div class="navbar-brand">Example for Choir SGGW structure</div>
+                </ul>
             </div>
         </div>
-    </nav>
+        <div ng-controller="ConcertController">
+            <img ng-src="{{event.imageUrl}}" alt="{{event.name}}" />
+            <div class="row">
+                <div class="spannll">
+                    <h2>
+                        {{event.name}}
+                    </h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="span3">
+                    <div>Date:<strong>{{event.date}}</strong></div>
+                    <div>Time:<strong>{{event.time}}</strong></div>
+                </div>
+                <div class="span4">
+                    <strong>Address:</strong><br />
+                    {{event.location.address}}<br />
+                    {{event.location.city}}, {{event.location.province}}
+                </div>
+            </div>
+            <hr />
 
-    <div class="container">
-        <div ng-include="'app/concerts/concertListView.html'"></div>
+            <h3>Sessions</h3>
+            <ul class="thumbnails">
+                <li ng-repeat="session in event.sessions">
+                    {{session.name}}
+                    {{session.upVoteCount}}
+                    <div ng-click="downVoteSession(session)" style="color: gray;">
+                        down
+                    </div>
+                </li>
+            </ul>
+        </div>
     </div>
 
     <!-- Library Scripts -->
+    <script src="Scripts/jquery-1.9.1.min.js"></script>
+    <script src="Scripts/bootstrap.js"></script>
     <script src="scripts/angular.js"></script>
     <script src="Scripts/angular-resource.js"></script>
-
     <!-- Application Script -->
     <script src="app/app.js"></script>
-
     <!-- Services -->
-    <script src="common/commonServices.js"></script>
-    <script src="common/concertResource.js"></script>
 
     <!-- Modules -->
-    <script src="app/concerts/concertManagment.js"></script>
 
     <!-- Concert Controllers -->
-    <script src="app/concerts/concertListCtrl.js"></script>
+    <script src="app/concert/ConcertController.js"></script>
+
 </body>
 
 </html>
