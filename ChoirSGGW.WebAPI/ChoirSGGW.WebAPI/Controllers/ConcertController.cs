@@ -33,9 +33,10 @@ namespace ChoirSGGW.WebAPI.Controllers
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>
-        public string Get(int id)
+        public ConcertDTO Get(int id)
         {
-            return "value";
+            var temp = Mapper.Map<IEnumerable<ConcertDTO>>(concertService.GetAll()).First();
+            return temp;
         }
 
         /// <summary>
